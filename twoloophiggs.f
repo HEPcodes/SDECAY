@@ -7258,7 +7258,7 @@ c     * /(1.+deltamt)**4.
 4237    RETURN
         END
 c---------------------------------------------------------
-      COMPLEX FUNCTION F0_HDEC*16(M1,M2,QSQ)
+      COMPLEX*16 FUNCTION F0_HDEC(M1,M2,QSQ)
       IMPLICIT REAL*8 (A-H,M,O-Z)
       COMPLEX*16 CD,CR,CQ2,IEPS,CBET,CXX
       M1SQ = M1*M1
